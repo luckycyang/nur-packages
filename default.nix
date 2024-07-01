@@ -13,6 +13,7 @@
 
   example-package = pkgs.callPackage ./pkgs/example-package {};
   gear = pkgs.callPackage ./pkgs/gear {};
+  wemeet = pkgs.callPackage ./pkgs/wemeet {};
   # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
   # ...
 }
