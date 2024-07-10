@@ -88,7 +88,7 @@ stdenv.mkDerivation (finalAttrs: {
     runHook preInstall
     mkdir -p $out/share/yosys/plugins
     cp ./build/release/systemverilog-plugin/systemverilog.so \
-           $out/share/yosys/plugins/systemverilog.so
+           $out/share/yosys/plugins/synlig.so
     runHook postInstall
   '';
 
