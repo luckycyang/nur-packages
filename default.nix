@@ -15,6 +15,7 @@
   gear = pkgs.callPackage ./pkgs/gear {};
   wemeet = pkgs.callPackage ./pkgs/wemeet {};
   yosys-synlig = pkgs.callPackage ./pkgs/synlig {};
+  probe-rs = pkgs.callPackage ./pkgs/probe-rs {};
   # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
   # ...
 }
