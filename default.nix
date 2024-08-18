@@ -17,6 +17,7 @@
   yosys-synlig = pkgs.callPackage ./pkgs/synlig {};
   probe-rs = pkgs.callPackage ./pkgs/probe-rs {};
   flutter_rust_bridge_codegen = pkgs.callPackage ./pkgs/flutter_rust_bridge_codegen {};
+  dioxus-cli = pkgs.callPackage ./pkgs/dioxus-cli {};
   # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
   # ...
 }
