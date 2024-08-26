@@ -19,6 +19,7 @@
   flutter_rust_bridge_codegen = pkgs.callPackage ./pkgs/flutter_rust_bridge_codegen { };
   dioxus-cli = pkgs.callPackage ./pkgs/dioxus-cli { };
   form = pkgs.callPackage ./pkgs/form { };
+  chiptool = pkgs.callPackage ./pkgs/chiptool { };
   # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
   # ...
 }
