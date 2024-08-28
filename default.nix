@@ -20,6 +20,7 @@
   dioxus-cli = pkgs.callPackage ./pkgs/dioxus-cli { };
   form = pkgs.callPackage ./pkgs/form { };
   chiptool = pkgs.callPackage ./pkgs/chiptool { };
+  target-gen = pkgs.callPackage ./pkgs/target-gen { };
   # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
   # ...
 }
